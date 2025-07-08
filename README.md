@@ -1,4 +1,4 @@
-# Live Clock Website
+# Live Analogue Clock Website
 
 A simple and responsive live analogue clock website that displays the current time and updates every second in real-time.
 
@@ -23,4 +23,4 @@ A simple and responsive live analogue clock website that displays the current ti
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sakey01/current-time.git
+   git clone https://github.com/sakey01/analogue-clock.git
