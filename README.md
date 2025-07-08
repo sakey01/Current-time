@@ -1,6 +1,6 @@
 # Live Clock Website
 
-A simple and responsive live analogeu clock website that displays the current time and updates every second in real-time.
+A simple and responsive live analogue clock website that displays the current time and updates every second in real-time.
 
 ---
 
