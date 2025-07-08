@@ -15,7 +15,7 @@ A simple and responsive live analogue clock website that displays the current ti
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/a8e0e6aa-38db-4b2a-abe1-ac5b542d4838)
+![image](https://github.com/user-attachments/assets/df18b706-73e5-4f2b-ac15-c382159cd0da)
 
 ---
 
