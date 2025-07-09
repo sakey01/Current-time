@@ -3,7 +3,7 @@ const secondHand = document.querySelector(".second-hand");
 const minuteHand = document.querySelector(".minute-hand");
 const hourHand = document.querySelector(".hour-hand");
 
-function setDate() {
+function setDate() {ls
   const now = new Date();
 
   const seconds = now.getSeconds().toString().padStart(2, "0");
