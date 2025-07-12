@@ -44,12 +44,13 @@ time {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 1rem;
 }
 
 .clock-face {
   aspect-ratio: 1 / 1;
-  width: min(80vmin, 500px);
+  min-width: 10rem;
+  height: 80vh;
   border: 8px solid var(--border);
   border-radius: 50%;
   position: relative;
