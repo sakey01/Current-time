@@ -22,7 +22,7 @@ function setDate() {
 }
 setInterval(setDate, 1000);
 const clock = document.querySelector(".clock-face");
-const walk = 60;
+const walk = 40;
 
 function shadow(e) {
   const height = clock.offsetHeight;
