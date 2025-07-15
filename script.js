@@ -21,3 +21,24 @@ function setDate() {
   time.innerHTML = `${hours}:${minutes}:${seconds}`;
 }
 setInterval(setDate, 1000);
+const clock = document.querySelector(".clock-face");
+const walk = 60;
+
+function shadow(e) {
+  const height = clock.offsetHeight;
+  const width = clock.offsetWidth;
+  let x = e.offsetX;
+  let y = e.offsetY;
+
+  if (this !== e.target) {
+    x += e.target.offsetLeft;
+    y += e.target.offsetTop;
+  }
+
+  const xWalk = (x / width * walk) - walk / 2;
+  const yWalk = (y / width * walk) - walk / 2;
+
+  clock.style.boxShadow = `${xWalk}px ${yWalk}px 0 black`;
+
+}
+window.addEventListener("mousemove", shadow);
